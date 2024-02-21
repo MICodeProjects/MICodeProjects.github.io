@@ -1,0 +1,48 @@
+.axis {
+  stroke: #333333;
+  stroke-width: 3;
+}
+.grid {
+  stroke: #dddddd;
+  stroke-width: 1;
+  opacity: .25;
+}
+.label {
+  cursor: default;
+  text-anchor: middle;
+  font-size: 14px;
+  fill: #444444
+}
+.bar { 
+  fill: #b69371;
+  opacity: 0.6;
+}
+#bar1 {
+  opacity: 0.6;
+  border:#333333;
+}
+#bar1:hover {
+    opacity: 1;
+}
+#bar2 {
+  opacity: 0.6;
+  border:#333333;
+
+}
+#bar2:hover {
+    fill: #43ea56;
+    opacity: 1;
+}
+#bar3 {
+  opacity: 0.6;
+  border:#333333;
+}
+#bar3:hover {
+    fill: #000000;
+    opacity: 1;
+}
+
+svg{
+  border:#000000;
+  border-style:dotted;
+}
